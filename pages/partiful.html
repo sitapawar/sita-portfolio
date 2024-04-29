@@ -1,26 +1,265 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Style Demo - Kards</title>
+	<title>Sita</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
    <!-- mobile specific metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width">
 
  	<!-- CSS
    ================================================== -->
-   <link rel="stylesheet" href="./css/base.css">  
-   <link rel="stylesheet" href="./css/main.css">
-   <link rel="stylesheet" href="./css/vendor.css">
-   </head>
-   <body>
-    <p>Partiful</p>
-   </body>
+   <link rel="stylesheet" href="../css/base.css">  
+   <link rel="stylesheet" href="../css/main.css">
+   <link rel="stylesheet" href="../css/vendor.css">     
+   <!-- script
+   ================================================== -->   
+	<script src="../js/modernizr.js"></script>
+	<script src="../js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="../images/logo.png">
+
+</head>
+
+<body id="top">
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+	   		<div class="logo">
+		         <a href="../index.html">Sita</a>
+		      </div>		      
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a href="../index.html" title="Home">Home</a></li>
+						<li><a href="../index.html#portfolio" title="Projects">Projects</a></li>
+						<li><a href="../index.html#about" title="About">About</a></li>
+						<li><a href="../index.html#about" title="Interests">Interests</a></li>					
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+<!-- Intro
+   ================================================== -->
+   <section id="partiful">
+	<div class="row section-intro">
+	   <div class="col-twelve">
+         <h5>Projects</h5>
+		   <h1>Partiful</h1>
+	   </div>   		
+   </div> <!-- /section-intro--> 
+      <div class = "mainText">
+         <h2>Introduction</h2>
+         <p>As part of a course on User Interface and User Experience, we had a group assignment where we were worked with a start up on designing and prototyping new features. When my group of four saw <a href="partiful.com">Partiful</a> was one of the companies we could work with for our UI/UX final project, we were immediately interested. We use Partiful already; it's quickly becoming one of the go-to event-planning apps on campus. <br><br>The problem we signed up to work on was the profiles screen: specifically "how can we encourage users to fill out their profiles?" This made a lot of sense as a question, since we, in fact, had not filled out ours.</p>
+         <p>It turned out to be a challenging question, but one which pushed us towards a lot of creative ideas throughout the process below.</p>
+         <br>
+                  
+         <h2>Wireframes</h2>
+         <p>Our primary objective was incentivizing users to complete their profile with a photo and more information. We focused on two avenues to achieve this: 
+         </p>
+         <ol type="1" class="listItem">
+           <li>Adding more calls to action and paths to direct users towards editing their profile </li>
+           <li>
+             Emphasizing the social connectivity of the platform with the assumption that if you feel like people are actually looking at your profile, you are more likely to care about how it looks. 
+           </li>
+         </ol >
+         <br>
+         <p>For our first objective we added more customizable features since we believe that if people want to edit or fill out one feature on their profile they are more likely to fill out more things since they are already on their profile. Some new features we designed to achieve this included: 
+         </p>
+         <ol type="1" class="listItem">
+           <li>"Party anthem" module on the profile page. A fun feature that can help bring people to the edit profile page              </li>
+           <li>Rebranding birthday month as horoscope on profile page.This feels less revealing of personal info and is more interesting to know</li>
+           <li>Adding complete check mark on profile that can unlock new customization features               </li>
+           <li>Including buttons prompting the user to add socials by default when viewing the user's own profile              </li>
+           <li>Add new customization options for profile background (similar to event page)
+           </li>
+         </ol>
+         <p>We emphasized our second objective by making the Mutuals features more visible on people's profiles and adding an upcoming events section where you can view future mutuals.</p>
+         <img src="assets/wireframe1.1.png" alt="Initial Wireframe">
+         <br><br>
+         <h2>User Interview Summary</h2>
+         <p>Since our demographic is the target audience for Partiful, I spearheaded the user inteview component of our process in order to make sure our designs were well researched and grounded in what users will respond to.
+           <br><br>
+           From a group interview as well as some informal one-on-one interviews, our main takeaways were: 
+         </p>
+         <ul class="listItem">
+           <li>No one we talked to had filled out their profile     </li>
+           <li>Many people didn't even realize they had a profile or didn't remember ever being prompted to add a photo
+           </li>
+           <li>They didn't understand why adding more information was necessary 
+           </li>
+         </ul>
+         <p>When we asked about reasons people could be more compelled to include more information some prominent responses included: 
+         </p>
+         <ul class="listItem">
+           <li>If photos were required in order to see the guest list/reply. Or if other important features were blocked - however "this would be super annoying"
+           </li>
+           <li>If they had a good reason. We discussed framing socials as a way to connect with people after a party and emphasizing the importance of photos for identifying people who are coming 
+           </li>
+           <li>If everyone else had a photo/filled out profile 
+           </li>
+         </ul>
+         <h2>Updated Wireframes</h2>
+         <p>Based on initial feedback from Partiful, user interviews, and classmates we improved our wireframe to be cleaner, prioritize the most relevant info, and add more calls to action.  </p>
+         <img src="assets/wireframes-updated.png" alt="Updated Wireframe">
+         <h2>High Fidelity Mockups</h2>
+         <!-- Slideshow container -->
+         <div class="slideshow-container2">
+           <div class="mySlides2 fade">
+             <video controls autoplay muted>
+               <source src="./assets/videos/RSVP_Socials.mp4" type="video/mp4">
+             </video>
+           </div>
+           
+           <div class="mySlides2 fade">
+             <video controls autoplay muted>
+               <source src="./assets/videos/fill_profile.mp4" type="video/mp4">
+             </video>
+           </div>
+           <div class="mySlides2 fade">
+             <img class="slideImg2" src="assets/hi-fi-images/hi-fi-1.png">
+           </div>
+           
+           <div class="mySlides2 fade">
+             <img class="slideImg2" src="assets/hi-fi-images/hi-fi-2.png" >
+           </div>
+           
+           <!-- Next and previous buttons -->
+           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+           <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         </div>
+         <br>
+         
+         <!-- The dots/circles -->
+         <div style="text-align:center">
+           <span class="dot2" onclick="currentSlide(3)"></span>
+           <span class="dot2" onclick="currentSlide(4)"></span>
+           <span class="dot2" onclick="currentSlide(1)"></span>
+           <span class="dot2" onclick="currentSlide(2)"></span>
+           
+         </div>
+         
+         <script>
+           let slideIndex2 = 1;
+           showSlides(slideIndex2);
+           function plusSlides(n) {
+             showSlides(slideIndex2 += n);
+           }
+           function currentSlide(n) {
+             showSlides(slideIndex2 = n);
+           }
+           function showSlides(n) {
+             let i;
+             let slides = document.getElementsByClassName("mySlides2");
+             let dots = document.getElementsByClassName("dot2");
+             if (n > slides.length) {slideIndex2 = 1}    
+             if (n < 1) {slideIndex2 = slides.length}
+             for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+             }
+             for (i = 0; i < dots.length; i++) {
+               dots[i].className = dots[i].className.replace(" active", "");
+             }
+             slides[slideIndex2-1].style.display = "block";  
+             dots[slideIndex2-1].className += " active";
+           }
+         </script>
+         
+         
+         <h2>Hi-Fi Design choices</h2> 
+         <p>We designed two main flows in Figma:</p> 
+         <ol type="1" class="listItem">
+           <li><a href="https://www.figma.com/proto/NrxtRs7GuhJVrY6WAFXMMf/Partiful-Profles?page-id=68%3A2197&type=design&node-id=334-16273&viewport=960%2C70%2C0.15&t=5YuKiCAdFb9bh05W-1&scaling=scale-down&starting-point-node-id=334%3A16273&show-proto-sidebar=1&mode=design">RSVP and Adding Social</a></li>
+           <li><a href="https://www.figma.com/proto/NrxtRs7GuhJVrY6WAFXMMf/Partiful-Profles?page-id=68%3A2197&type=design&node-id=288-2162&viewport=960%2C70%2C0.15&t=5YuKiCAdFb9bh05W-1&scaling=scale-down&starting-point-node-id=288%3A2162&show-proto-sidebar=1&mode=design">Customize Profile</a></li>
+         </ol >
+         <h3>Complete check marks</h3>
+         <p>Everyone wants the verified blue checkmark on social media platforms like Instagram or Twitter, so we decided to leverage this motivation to incentivize users to complete their profiles. Once a profile is completely filled out, users get a yellow checkmark icon that appears next to their name.</p>
+         
+         <h3>Gatekeeping socials</h3>
+         <p>Users can't see other user's linked socials unless they have added socials themselves. This incentivizes users to avoid missed connections from parties by adding socials so partiers can get in touch.</p>
+         
+         <h3>Edit profile flow</h3>
+         <p>We added a progress bar to show how complete a user's profile is. This can help inform the user that there still things for them to complete, and to incentive users's to fill up the bar..</p>
+         
+         <h3>Party anthems</h3>
+         <p>We added the option to link a song from Spotify or Apple Music to a profile so that users can share more of their personality! This is a field that we think users will want to complete, which adds more information to their profile page.</p>
+         
+         <h3>Pop-ups</h3>
+         <p>We believe that adding more prompts with compelling reasons for users to add information will increase the completion of profiles. Adding fun pop-ups can remind the user that they haven't completed their profile while still allowing for easy dismissal in order not to be a burden. Our pop-ups also provide a reason for why Partiful is asking for this information. </p>
+         
+         
+         <h3>Customizable background</h3>
+         <p>Once a user completes all the information from their profile, they unlock customizable backgrounds and particles effects, similar to the events page. The idea is that users will enjoy the fun customization, and therefore be incentivized to complete their profiles.</p>
+         
+         <h3>Cards</h3>
+         <p>We modified the guest list of an event from a scrollable section of names and profile pictures, to featuring "cards" for each profile. These cards provide users with a fun way to showcase their customized profile settings even when in a list among other users. By expanding the effects of customization beyond a user's profile page, users are further incentivized to complete their profile.</p>
+         
+         <h3>Loom Walk Through</h3>
+         <p>We summarized our features and walk through in a <a href="https://www.loom.com/share/fae1799f3d6247379169fb14690153f7?sid=dfafaf9e-85c6-4ec1-a695-0b5bd2cb54c9"> Loom video</a>.</p>
+         
+         <h2>Final Partiful Feedback</h2>
+         <p>At our meeting with the founders, we were able to have a conversation about both the changes we made to the app and feedback about those changes. They praised certain elements of our design, most notably our flows that rewarded users for filling out their profile information with more customizable options. They also enjoyed our new feature that we titled "party anthem", which allows the users to put a song in their profile. However, they expressed that they would like the ability for the song to play continuously while the user was on the profile if that was possible. Interestingly enough, some of our concepts and designs were similar to features that the founders are working on or had considered before, including the idea of different tiers of mutuals (such as displaying the number of shared mutuals two users have). They were interested in the user research we conducted with our peers, and we discussed why users may be hesitant to fill out their profile information and Gen-Z disillusionment with emojis. 
+           <br><br>
+           If our group had more time, we would have liked to build the profile out to experiment interacting with mutuals and the guest list. Additionally, we would further refine the profile options to test which elements the users are most interested in. We would also like to do more user research to see how much/what kinds of information users feel comfortable displaying.  In terms of the feedback we received, we were encouraged to edit the display of the guest list. We had originally created it in order to display the customized profiles in a smaller format on the list, but the founders worried that the colors and animation would make the list too busy. We were encouraged to create a guest list that would display some level of customization, but is in a simpler format, perhaps by dimming the background colors. We were also encouraged to create different versions of the calls to action/pop-ups, and design a new visual version of mutuals that is not a list. 
+         </p>
+       </div>
+       <br><br>
+</section>
+
+
+<div class="row contact-info">
+   <div class="icon">
+      <i class="icon-mail"></i>
+   </div>
+
+   <h5>Email Me At</h5>
+
+   <p>sitabrooklyn@gmail.com<br>
+      sitap1516@gmail.com
+    </p>	
+</div> <!-- /contact-info -->
+
+</section> <!-- /contact -->
+
+   
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+      	<div class="col-eight tab-full">
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+      	</div> <!-- /row -->     	
+   </footer>  
+
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="../js/jquery-2.1.3.min.js"></script>
+   <script src="../js/plugins.js"></script>
+   <script src="../js/main.js"></script>
+   <script src="../js/gallery.js"></script>
+
+    <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+</body>
+
+</html>
