@@ -1698,14 +1698,14 @@ header .logo a {
  *Partiful
  * ------------------------------------------------------------------- 
  */
- #partiful h5{
+ .my-page h5{
 	margin-top: 3rem;
  }
 
- #partiful h1{
+ .my-page h1{
 	margin-top: 2vw;
  }
-#partiful{
+.my-page{
 	background-color: #FEFAF0;
 	mg{
 		width:70%;
@@ -1714,6 +1714,16 @@ header .logo a {
 		margin-right: auto;
 		align-items: center;
 	  }
+	span{
+		margin-left:3.5vw;
+		color:#313131;
+		font-size: 1.3vw;
+		font-family: "lora-regular", serif;;
+
+	}
+	.third-wide{
+		width:40%;
+	}
 	  .mainText{
 		  background-color: #FEFAF0;
 		  align-items: center;
