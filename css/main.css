@@ -5,7 +5,6 @@
  *  02. base style overrides
  *  03. typography & general theme styles
  *  04. preloader
- *  05. forms
  *  06. buttons 
  *  07. other components
  *  08. common styles
@@ -18,7 +17,6 @@
  *
  * =================================================================== 
  */
-
 
 /** 
  * ===================================================================
@@ -813,11 +811,12 @@ header .top-bar {
 	min-width: 190px;
 	min-height: 66px;
 	position: absolute;
-	left: auto;
+	left: -20%;
+	/* right:-20px; */
 	top: 0;
 }
 header .logo {
-	float: left;
+	float: right;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 25px;
@@ -984,12 +983,12 @@ header .logo a {
  * header styles
  * --------------------------------------------------------------- 
  */
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:1600px) {
 	header .top-bar {
 		left: auto;
 	}
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
 	header .top-bar {
 		left: auto;
 	}
@@ -1032,7 +1031,7 @@ header .logo a {
 	width: 100%;
 	height: 100%;
 	background: #05050b;
-	opacity: .85;
+	opacity: .75;
 }
 
 .intro-content {
@@ -1733,20 +1732,20 @@ header .logo a {
 	  }
 	  h1{
 		  margin-top: 1vw;
-		  font-size:3vw;
+		  font-size:48px;
 		  padding: .5vw .5vw;
 		  font-family: 'Playfair Display SC', serif;
 		  text-align: center;
 		  align-items: center;
 	  }
 	  h2{
-		  font-size:2vw;
+		  font-size:40px;
 		  padding: .5vw .5vw;
 		  font-family: 'Playfair Display SC', serif;
 		  color:#5A69A3;
 	  }
 	  h3{
-		  font-size:1.7vw;
+		  font-size:30px;
 		  padding: .1vw;
 		  font-family: 'Playfair Display', serif;
 		  color:#5A69A3;
@@ -1756,14 +1755,22 @@ header .logo a {
 	  p{
 		  margin-left:3.5vw;
 		  color:#313131;
-		  font-size: 1.3vw;
+		  font-size: 28px;
 		  font-family: "lora-regular", serif;;
 		  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+	  }
+
+	  .subheader{
+		  color:#5A69A3;
+		  font-size: 20px;
+		  font-family: "lora-regular", serif;
+		  text-align: center;
+		  margin-left: 0;
 	  }
 	  
 	  .listItem{
 		margin-left:3.5vw;
-		font-size: 1.3vw;
+		font-size: 28px;
 		font-family: "lora-regular", serif;;
 	}
 	  .listItem li{
@@ -1888,6 +1895,10 @@ header .logo a {
 		  right: 0;
 		  border-radius: 3px 0 0 3px;
 		}
+		.prev {
+			left: 0;
+			border-radius: 3px 0 0 3px;
+		  }
 		
 		/* On hover, add a black background color with a little bit see-through */
 		.prev:hover, .next:hover {
@@ -2061,14 +2072,86 @@ header .logo a {
 		color: #778bcb;
 
 	 }
+	 .ossSlide{
+		height:600px;
+	 }
+	 .eighty{
+		width: 80%;
+		display: block;
+    	margin: 0 auto;
+	 }
 	  
 		@keyframes fade {
 		  from {opacity: .4}
 		  to {opacity: 1}
 		}
 }
+.header-img{
+	margin-top: 2vw;
+}
 
 #portfolio-page{
 	background-color: #FEFAF0;
 }
+
+.art-gallery{
+	display: flex;
+}
+.col-thirds{
+	width: 33%;
+}
+.art-row{
+	overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+    }
+    .gallery-item {
+        display: inline-block;
+        height: 350px; /* Adjust width according to your needs */
+        margin-right: 10px; /* Adjust margin between items */
+    }
+    .gallery-item img {
+        width: auto;
+        height: 100%;
+    }
+
+    .scroll-indicator {
+        position: absolute;
+        width: 50px;
+		top: 50%;
+        height: 60px;
+        background-color: #92A4E0;
+        border-radius: 50%;
+		transform: translateY(-50%);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    .scroll-indicator:hover {
+        background-color: #5A69A3;
+    }
+    .scroll-indicator.left {
+        left: -35px;
+    }
+    .scroll-indicator.right {
+        right: -35px;
+    }
+    .scroll-indicator i {
+        border: solid #2F2347;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+		transform: translate(-50%, -50%);
+        padding: 5px;
+    }
+    .scroll-indicator.left i {
+        transform: rotate(135deg);
+    }
+    .scroll-indicator.right i {
+        transform: rotate(-45deg);
+    }
+	.gallery-container-wrapper{
+		position: relative;
+	}
 /*# sourceMappingURL=main.css.map */

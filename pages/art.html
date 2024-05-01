@@ -67,8 +67,66 @@
 <!-- Original Sect
    ================================================== --> 
    <div class="row portfolio-content">
-	   <div class="col-twelve">
-		   <!-- portfolio-wrapper -->
+	<div class="gallery-container-wrapper">
+		<div class="scroll-indicator left" onclick="scrollGallery(-200)"><i></i></div>
+		<div class="art-row">
+			<div class="gallery-item">
+				<img src="../images/art/vanity1.jpg" alt="Vanity Portrait">
+			</div>
+			<div class="gallery-item">
+			<img src="../images/art/cloudport1.jpg" alt="Cloud Portrait">
+			</div>
+			<div class="gallery-item">
+			<img src="../images/art/selfport1.png" alt="Self Portrait">
+			</div>	
+			<div class="gallery-item">
+				<img src="../images/art/moya1.png" alt="Moya Portrait">
+			</div>
+		</div>
+		<div class="scroll-indicator right" onclick="scrollGallery(200)"><i></i></div> 
+	
+	</div>
+	
+
+	<script>
+		function scrollGallery(scrollOffset) {
+			const galleryContainer = document.querySelector('.art-row');
+			galleryContainer.scrollBy({
+				left: scrollOffset,
+				behavior: 'smooth'
+			});
+		}
+		document.querySelector('.art-row').addEventListener('scroll', function() {
+			const galleryContainer = document.querySelector('.art-rowr');
+			const scrollIndicatorLeft = document.querySelector('.scroll-indicator.left');
+			const scrollIndicatorRight = document.querySelector('.scroll-indicator.right');
+	
+			if (galleryContainer.scrollLeft === 0) {
+				scrollIndicatorLeft.style.display = 'none';
+			} else {
+				scrollIndicatorLeft.style.display = 'block';
+			}
+	
+			if (galleryContainer.scrollLeft === (galleryContainer.scrollWidth - galleryContainer.clientWidth)) {
+				scrollIndicatorRight.style.display = 'none';
+			} else {
+				scrollIndicatorRight.style.display = 'block';
+			}
+		});
+	</script>
+	<!-- <div class="art-gallery">
+		<div class="col-thirds">
+			<img src="../images/art/vanity1.jpg" alt="Vanity Portrait">
+			<img src="../images/art/moya1.png" alt="Responsive Redesign">
+		</div>
+		<div class="col-thirds">
+			<img src="../images/art/cloudport1.jpg" alt="Cloud Portrait">		
+		</div>
+		<div class="col-thirds">
+			<img src="../images/art/selfport1.png" alt="Self Portrait">
+		</div>
+	</div> -->
+	      <!--<div class="col-twelve">
 		 <div class="art-folio">
 				<img src="../images/art/vanity1.jpg" alt="Vanity Portrait">
 
@@ -77,8 +135,8 @@
                     <img src="../images/art/selfport1.png" alt="Self Portrait">
 
                     <img src="../images/art/moya1.png" alt="Responsive Redesign">
-	   </div>  <!-- /twelve -->   
-   </div> <!-- /portfolio-content --> 
+	   </div>  
+   </div> -->
 
 <!-- Study Sect
    ================================================== -->
