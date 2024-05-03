@@ -1297,10 +1297,17 @@ header .logo a {
  * about
  * ------------------------------------------------------------------- 
  */
-@media only screen and (max-width:1024px) {
-	.intro-info {
+@media only screen and (max-width:1124px) {
+	.intro-info{
 		margin-right: 0;
 		margin-left: 0;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-bottom: rem;
+	}
+	.intro-info img {
+		height: 25rem;
+		width: 25rem;
 	}
 }
 @media only screen and (max-width:768px) {
@@ -1310,8 +1317,8 @@ header .logo a {
 		padding-bottom: rem;
 	}
 	.intro-info img {
-		height: 20rem;
-		width: 20rem;
+		height: 25rem;
+		width: 25rem;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
