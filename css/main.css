@@ -1550,7 +1550,7 @@ header .logo a {
 .contact-info {
 	margin: 4.8rem auto 0;
 	font-family: "Playfair";
-	font-size: 1.5rem;
+	font-size: 2.5 rem;
 	text-align: center;
 }
 .contact-info h5{
@@ -1637,7 +1637,59 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 
+ footer {
+	padding-bottom: 3rem;
+	font-size: 2.5 rem;
+	font-family: "lora-regular", serif;;
+}
+footer a, footer a:visited {
+	color:#a9a9a9;
+}
 
+footer a:hover, footer a:focus {
+	color: #92A4E0;
+}
+footer span{
+	color:#a9a9a9;
+}
+footer .row {
+	max-width: 900px;
+}
+footer .social {
+	text-align: right;
+	color:#FEFAF0
+}
+footer .footer-social {
+	display: inline-block;
+	font-size: 2.1rem;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -.3rem;
+}
+footer .footer-social li {
+	display: inline-block;
+	margin: 0 12px;
+	padding: 0;
+}
+footer .footer-social li a {
+	color: #FEFAF0;
+}
+footer .footer-social li a:focus,  footer .footer-social li a:hover{
+	color: #92A4E0;
+}
+footer .copyright span {
+	display: inline-block;
+}
+footer .copyright span::after {
+	content: "|";
+	display: inline-block;
+	padding: 0 1rem 0 1.2rem;
+	color:#a9a9a9;
+}
+footer .copyright span:last-child::after {
+	display: none;
+}
 
 
 /**
