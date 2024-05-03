@@ -59,17 +59,18 @@
 	   <div class="col-twelve">
 		   <!-- <a><h5>Art</h5></a> -->
 		   <h5>Art</h5>
-		   <h1>Original Paintings</h1>
-		   <p class="lead">Self Portraits</p>
+		   <h1>Visual Art</h1>
+		   <!-- <p class="lead">Self Portraits</p> -->
 	   </div>   		
    </div> <!-- /section-intro--> 
 
 <!-- Original Sect
    ================================================== --> 
    <div class="row portfolio-content">
+	<h1>Self Portraits</h1>
 	<div class="gallery-container-wrapper">
-		<div class="scroll-indicator left" onclick="scrollGallery(-200)"><i></i></div>
-		<div class="art-row">
+		<div class="scroll-indicator left" onclick="scrollGallery(-250)"><i></i></div>
+		<div id ="originals" class="art-row">
 			<div class="gallery-item">
 				<img src="../images/art/vanity1.jpg" alt="Vanity Portrait">
 			</div>
@@ -83,35 +84,89 @@
 				<img src="../images/art/moya1.png" alt="Moya Portrait">
 			</div>
 		</div>
-		<div class="scroll-indicator right" onclick="scrollGallery(200)"><i></i></div> 
+		<div class="scroll-indicator right" onclick="scrollGallery(250)"><i></i></div> 
 	
 	</div>
 	
 
 	<script>
 		function scrollGallery(scrollOffset) {
-			const galleryContainer = document.querySelector('.art-row');
+			const galleryContainer = document.querySelector('#originals');
 			galleryContainer.scrollBy({
 				left: scrollOffset,
 				behavior: 'smooth'
 			});
 		}
-		document.querySelector('.art-row').addEventListener('scroll', function() {
-			const galleryContainer = document.querySelector('.art-rowr');
+		document.querySelector('#forgery').addEventListener('scroll', function() {
+			const galleryContainer = document.querySelector('#originals');
 			const scrollIndicatorLeft = document.querySelector('.scroll-indicator.left');
 			const scrollIndicatorRight = document.querySelector('.scroll-indicator.right');
 	
-			if (galleryContainer.scrollLeft === 0) {
-				scrollIndicatorLeft.style.display = 'none';
-			} else {
-				scrollIndicatorLeft.style.display = 'block';
-			}
+			// if (galleryContainer.scrollLeft === 0) {
+			// 	scrollIndicatorLeft.style.display = 'none';
+			// } else {
+			// 	scrollIndicatorLeft.style.display = 'block';
+			// }
 	
-			if (galleryContainer.scrollLeft === (galleryContainer.scrollWidth - galleryContainer.clientWidth)) {
-				scrollIndicatorRight.style.display = 'none';
-			} else {
-				scrollIndicatorRight.style.display = 'block';
-			}
+			// if (galleryContainer.scrollLeft === (galleryContainer.scrollWidth - galleryContainer.clientWidth)) {
+			// 	scrollIndicatorRight.style.display = 'none';
+			// } else {
+			// 	scrollIndicatorRight.style.display = 'block';
+			// }
+		});
+	</script>
+	<!-- Forgery Sect
+   ================================================== --> 
+   <h1>Acrylic Studies</h1>
+   <p class="lead">My art forgery career could be great</p>
+	<div class="gallery-container-wrapper">
+		<div class="scroll-indicator left" onclick="scrollGallery1(-250)"><i></i></div>
+		<div id ="forgery"class="art-row">
+			<div class="gallery-item">
+				<img src="../images/art/turner4.png" alt="Temeraire">
+			</div>
+			<div class="gallery-item">
+			<img src="../images/art/pearlEar.png" alt="Cloud Portrait">
+			</div>
+			<div class="gallery-item">
+			<img src="../images/art/jwhite1.png" alt="Self Portrait">
+			</div>	
+			<div class="gallery-item">
+				<img src="../images/art/turner3.png" alt="Moya Portrait">
+			</div>
+			<div class="gallery-item">
+				<img src="../images/art/jwhite2.png" alt="Moya Portrait">
+			</div>
+		</div>
+		<div class="scroll-indicator right" onclick="scrollGallery1(250)"><i></i></div> 
+	
+	</div>
+	
+
+	<script>
+		function scrollGallery1(scrollOffset) {
+			const galleryContainer = document.querySelector('#forgery');
+			galleryContainer.scrollBy({
+				left: scrollOffset,
+				behavior: 'smooth'
+			});
+		}
+		document.querySelector('#forgery').addEventListener('scroll', function() {
+			const galleryContainer = document.querySelector('#forgery');
+			const scrollIndicatorLeft = document.querySelector('.scroll-indicator.left');
+			const scrollIndicatorRight = document.querySelector('.scroll-indicator.right');
+	
+			// if (galleryContainer.scrollLeft === 0) {
+			// 	scrollIndicatorLeft.style.display = 'none';
+			// } else {
+			// 	scrollIndicatorLeft.style.display = 'block';
+			// }
+	
+			// if (galleryContainer.scrollLeft === (galleryContainer.scrollWidth - galleryContainer.clientWidth)) {
+			// 	scrollIndicatorRight.style.display = 'none';
+			// } else {
+			// 	scrollIndicatorRight.style.display = 'block';
+			// }
 		});
 	</script>
 	<!-- <div class="art-gallery">
@@ -140,24 +195,7 @@
 
 <!-- Study Sect
    ================================================== -->
-<div class="row section-intro">
-    <div class="col-twelve">
-        <h1>Studies</h1>
 
-        <p class="lead">my art forgery career</p>
-
-    </div>   		
-</div> <!-- /section-intro--> 
-<!-- Illustration Sect
-   ================================================== -->
-   <div class="row section-intro">
-    <div class="col-twelve">
-        <h1>Digital Illustration</h1>
-
-        <p class="lead">Here are projects I have worked on</p>
-
-    </div>   		
-</div> <!-- /section-intro--> 
 
 
 

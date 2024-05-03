@@ -1731,12 +1731,12 @@ header .logo a {
 		  margin-right: 14%;
 	  }
 	  h1{
-		  margin-top: 1vw;
 		  font-size:48px;
-		  padding: .5vw .5vw;
 		  font-family: 'Playfair Display SC', serif;
 		  text-align: center;
 		  align-items: center;
+		  margin-top: 0;
+		  margin-bottom: .5vw;
 	  }
 	  h2{
 		  font-size:40px;
@@ -1766,6 +1766,8 @@ header .logo a {
 		  font-family: "lora-regular", serif;
 		  text-align: center;
 		  margin-left: 0;
+		  margin-bottom: 0;
+		  margin-top: 2vw;
 	  }
 	  
 	  .listItem{
@@ -2080,6 +2082,14 @@ header .logo a {
 		display: block;
     	margin: 0 auto;
 	 }
+	 #top-links{
+		margin-left:0;
+		text-align: center;
+		margin-top: 1vw;
+	 }
+	 #top-links:hover{
+		color:#2F2347;
+	 }
 	  
 		@keyframes fade {
 		  from {opacity: .4}
@@ -2107,7 +2117,7 @@ header .logo a {
     }
     .gallery-item {
         display: inline-block;
-        height: 350px; /* Adjust width according to your needs */
+        height: 450px; /* Adjust width according to your needs */
         margin-right: 10px; /* Adjust margin between items */
     }
     .gallery-item img {
@@ -2133,10 +2143,10 @@ header .logo a {
         background-color: #5A69A3;
     }
     .scroll-indicator.left {
-        left: -35px;
+        left: -8%;
     }
     .scroll-indicator.right {
-        right: -35px;
+        right: -8%;
     }
     .scroll-indicator i {
         border: solid #2F2347;
