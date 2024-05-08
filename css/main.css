@@ -2173,11 +2173,6 @@ footer .copyright span:last-child::after {
 	margin-top: 2vw;
 }
 
-.mainText iframe{
-	/* margin:auto; */
- 	width: 70%;
-	height:auto;
-}
 
 #widerSlides{
 	max-width: 1200px;

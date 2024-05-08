@@ -55,211 +55,108 @@
 <!-- Intro
    ================================================== -->
    <section class="my-page">
-	<div class="row section-intro">
-	   <div class="col-twelve">
-         <h5>Projects</h5>
-		   <h1>Amazon Amp Advert</h1>
-	   </div>   		
-   </div> <!-- /section-intro--> 
       <div class = "mainText">
-         <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/752557245?h=396aec15a5&autoplay=1&byline=0" aria-label="Amazon Amp Commercial from Vimeo"style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-         <p class = "subheader"><a href="https://vimeo.com/752557245">Amazon &bull; Amazon Amp - Find Your Wavelength</a></p><br><br>
-         <br>   
-         <h2>Introduction</h2>
-         <p class="lead">As part of a course on User Interface and User Experience, we had a group assignment where we were worked with a start up on designing and prototyping new features. When my group of four saw <a href="partiful.com">Partiful</a> was one of the companies we could work with for our UI/UX final project, we were immediately interested. We use Partiful already; it's quickly becoming one of the go-to event-planning apps on campus. <br><br>The problem we signed up to work on was the profiles screen: specifically "how can we encourage users to fill out their profiles?" This made a lot of sense as a question, since we, in fact, had not filled out ours.</p>
-         <p class="lead">It turned out to be a challenging question, but one which pushed us towards a lot of creative ideas throughout the process below.</p>
-         <br>
-                  <!-- Slideshow container -->
-                  <div id="widerSlides" class="slideshow-container2">
-                     <div class="mySlides2 fade">
-                       <img class="slideImg2" src="assets/amp/concept1.png">
-                     </div>
+        <div class="row section-intro">
+          <div class="col-twelve">
+              <h5>Projects</h5>
+              <img class="header-img" src="assets/OSSWide.png" alt="OSS header image">
+              <p class="subheader"> March 2024 &#183; Web Design and Development</p>
+            <h1>Open Source Shakespeare Redesign</h1>
+            <hr style="width: 40%; margin: auto;">
+            <p id ="top-links" class="lead"><a id ="top-links" href="https://sitapawar.github.io/responsive_redesign/">Redesigned Site  </a>    &#183;    <a id ="top-links" href="https://www.opensourceshakespeare.org/">  Original Site  </a>&#183; <a id ="top-links" href="https://github.com/sitapawar/responsive_redesign">  Github</a>
 
-                     <div class="mySlides2 fade">
-                        <img class="slideImg2" src="assets/amp/concetpSun.JPG" >
-                      </div>
-
-                      <div class="mySlides2 fade">
-                        <img class="slideImg2" src="assets/amp/wavepath1.JPG" >
-                      </div>
-
-                      <div class="mySlides2 fade">
-                        <img class="slideImg2" src="assets/amp/wavepath2.PNG" >
-                      </div>
-                     
-                     <!-- Next and previous buttons -->
-                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                   </div>
-                   <br>
-                   
-                   <!-- The dots/circles -->
-                   <div style="text-align:center">
-                     <span class="dot2" onclick="currentSlide(3)"></span>
-                     <span class="dot2" onclick="currentSlide(4)"></span>
-                     <span class="dot2" onclick="currentSlide(1)"></span>
-                     <span class="dot2" onclick="currentSlide(2)"></span>
-                     
-                   </div>
-                   
-                   <script>
-                     let slideIndex2 = 1;
-                     showSlides(slideIndex2);
-                     function plusSlides(n) {
-                       showSlides(slideIndex2 += n);
-                     }
-                     function currentSlide(n) {
-                       showSlides(slideIndex2 = n);
-                     }
-                     function showSlides(n) {
-                       let i;
-                       let slides = document.getElementsByClassName("mySlides2");
-                       let dots = document.getElementsByClassName("dot2");
-                       if (n > slides.length) {slideIndex2 = 1}    
-                       if (n < 1) {slideIndex2 = slides.length}
-                       for (i = 0; i < slides.length; i++) {
-                         slides[i].style.display = "none";  
-                       }
-                       for (i = 0; i < dots.length; i++) {
-                         dots[i].className = dots[i].className.replace(" active", "");
-                       }
-                       slides[slideIndex2-1].style.display = "block";  
-                       dots[slideIndex2-1].className += " active";
-                     }
-                   </script>
-                    <!-- Slideshow container -->
-                    <h2>Wireframes</h2>
-                    <p class="lead">Our primary objective was incentivizing users to complete their profile with a photo and more information. We focused on two avenues to achieve this: 
-                    </p>
-                    <ol type="1" class="listItem">
-                      <li>Adding more calls to action and paths to direct users towards editing their profile </li>
-                      <li>
-                        Emphasizing the social connectivity of the platform with the assumption that if you feel like people are actually looking at your profile, you are more likely to care about how it looks. 
-                      </li>
-                    </ol >
-                    <br>
-    <div class="slideshow-container">
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img class="slideImg"src="assets/amp/desertFlower1.JPEG">
-      </div>
-      
-      <div class="mySlides fade">
-        <img class="slideImg" src="assets/amp/closeup2.PNG" >
-      </div>
-      
-      <div class="mySlides fade">
-        <img class="slideImg" src="assets/amp//girlflower1.PNG" >
-      </div>
-      <div class="mySlides fade">
-        <img  class="slideImg" src="assets/amp/oasis1.PNG" >
-      </div>
-      <div class="mySlides fade">
-        <img class="slideImg" src="assets/amp/oasis2.PNG" >
-      </div>
-      <div class="mySlides fade">
-        <img  class="slideImg" src="assets/amp/girlFlower_closeup.PNG" >
-      </div>
-      
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides1(1)">&#10095;</a>
-    </div>
-    <br>
-    
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide1(1)"></span>
-      <span class="dot" onclick="currentSlide1(2)"></span>
-      <span class="dot" onclick="currentSlide1(3)"></span>
-      <span class="dot" onclick="currentSlide1(4)"></span>
-      <span class="dot" onclick="currentSlide1(5)"></span>
-      <span class="dot" onclick="currentSlide1(6)"></span>
-    </div>
-    
-    <script>
-      let slideIndex = 1;
-      showSlides1(slideIndex);
-      
-      function plusSlides1(n) {
-        showSlides1(slideIndex += n);
-      }
-      
-      function currentSlide1(n) {
-        showSlides1(slideIndex = n);
-      }
-      
-      function showSlides1(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-      }
-    </script>
-         
-         <p class="lead">For our first objective we added more customizable features since we believe that if people want to edit or fill out one feature on their profile they are more likely to fill out more things since they are already on their profile. Some new features we designed to achieve this included: 
-         </p>
-         <ol type="1" class="listItem">
-           <li>"Party anthem" module on the profile page. A fun feature that can help bring people to the edit profile page              </li>
-           <li>Rebranding birthday month as horoscope on profile page.This feels less revealing of personal info and is more interesting to know</li>
-           <li>Adding complete check mark on profile that can unlock new customization features               </li>
-           <li>Including buttons prompting the user to add socials by default when viewing the user's own profile              </li>
-           <li>Add new customization options for profile background (similar to event page)
-           </li>
-         </ol>
-        
-         <p class="lead">We emphasized our second objective by making the Mutuals features more visible on people's profiles and adding an upcoming events section where you can view future mutuals.</p>
-         <img src="assets/wireframe1.1.png" alt="Initial Wireframe">
-         <br><br>
-         <h2>User Interview Summary</h2>
-         <p class="lead">After our initial wireframes inspired by our group brainstorm we wanted to get some external feedback from users of Partiful. Since our demographic is the target audience for Partiful, I spearheaded the user inteview component of our process in order to make sure our designs were well researched and grounded in what users will respond to. 
-           <br><br>
-           From a group interview as well as some informal one-on-one interviews, our main takeaways were: 
-         </p>
-         <ul class="listItem">
-           <li>No one we talked to had filled out their profile     </li>
-           <li>Many people didn't even realize they had a profile or didn't remember ever being prompted to add a photo
-           </li>
-           <li>They didn't understand why adding more information was necessary 
-           </li>
-         </ul>
-         <p class="lead">When we asked about reasons people could be more compelled to include more information some prominent responses included: 
-         </p>
-         <ul class="listItem">
-           <li>If photos were required in order to see the guest list/reply. Or if other important features were blocked - however "this would be super annoying"
-           </li>
-           <li>If they had a good reason. We discussed framing socials as a way to connect with people after a party and emphasizing the importance of photos for identifying people who are coming 
-           </li>
-           <li>If everyone else had a photo/filled out profile 
-           </li>
-         </ul>
-         <div class="image-thirds">
-            <img class="col-thirds"src="assets/amp/storyboard1.JPG">
-            <img class="col-thirds"src="assets/amp/storyboard2.JPG">
-            <img class="col-thirds"src="assets/amp/storyboard3.JPG">
-         </div>
-         <div>
-            <img class="col-thirds"src="assets/amp/storyboard4.JPG">
-            <img class="col-thirds"src="assets/amp/storyboard5.JPG">
-            <img class="col-thirds"src="assets/amp/storyboard6.JPG">
-         </div>
-        
-         <h2>Updated Wireframes</h2>
-         <p class="lead">Based on initial feedback from Partiful, user interviews, and classmates we improved our wireframe to be cleaner, prioritize the most relevant info, and add more calls to action.  </p>
-         <img src="assets/wireframes-updated.png" alt="Updated Wireframe">
-         <h2>High Fidelity Mockups</h2>
-      
-         </div>
-         
+          </div>   		
+        </div> <!-- /section-intro--> 
+        </p>
+            <h2>Why OSS</h2>
+            <p class="lead">I chose to redesign the Open Source Shakespeare (OSS) website because it has always been my favorite Shakespeare website and I’ve used it for both Shakespeare papers and productions. I love this site and care about increasing accessibility to books through digitizing them! I’m also passionate about the use of technology to analyze literature and the OSS database is an incredible resource for digital humanities. However, the interface itself is rather dated and unintuitive making it harder to use to its full potential. 
+                <br><br>
+                The most significant problems with the site that I identified were difficulty of navigation, lack of responsive design, lack of accessibility labels and alternative text. Additionally the site felt crowded with unnecessary text, was difficult to learn and remember, and spacing would glitch when navigating through the interface. 
+                <br><br>
+                The site has so many incredible features that are difficult to find and properly utilize due to the interface’s complexity. In my redesign I hoped to streamline the process of using the site while making it more aesthetic, accessible and adaptive to different device sizes. 
+                <br><br>
+                I used software like Lighthouse and WebAIM to test for accessibility and create a more informed redesign. There are many instances where alternative and label text is missing. Additionally, certain elements are not marked as headers, there aren’t page regions and a layout table is used. 
+                All of these things make it more difficult for screen readers to navigate the page. I also wanted to increase accessibility by using larger buttons rather than the small text links of the original to make the different resources easier to click.
+            </p>
+            <img class="eighty" src="assets/originalOSS.png" alt="Original Open Source Shakespeare Website">
+            <h2>Visual Redesign</h2>
+            <h3>Initial Sketches</h3>
+                <p class="lead">For my visual redesign I started by drafting 9 rough sketches to brainstorm different layouts before combining the strongest elements into an final sketch which served as my base for the rest of redesign.</p>
+            <img class="eighty" src = "assets/RoughSketches.jpg" alt="9 Rough sketches for interface and finalized sketch ">
+            <h3>Low-Fidelity Wireframing</h3>
+                <p class="lead">Using my rough sketch as a reference, I drew up annotated low-fidelity wireframes for the different devices sizes in order to plan out the responsive layout. 
+                    I annotated the wireframes in order to communicate how these redesigns solved the problems with the original site that I had identified.
+                </p class="lead">
+                <img class="eighty" src="assets/OSSWireframe.png" alt="Low-Fidelity wireframes for desktop, tablet, and mobile devices">
+            <h3>Style Guide</h3>
+            <p class="lead">When creating my high-fi mockups I also compiled a visual style guide to centralize my different design elements. 
+            </p class="lead">
+            <img class="eighty" src = "assets/StyleGuideOSS.png" alt="HighFi Style Guide">
+            <h3>High-Fidelity Mockup</h3>
+            <p class="lead">While my Hi-Fi mockups are largely based on my sketches, I adjusted them slightly to maximize visual clarity and simplicity. I cut the text from above the search bar and instead moved it to the main 
+                text and content section. This allowed me to use the Shakespeare image as a background to the search bar and not worry about distracting from unecessary text.
+            </p>
+            <img class="eighty" src = "assets/HiFiMockup.png" alt="HighFi Mockup Images">
+            <h2>Responsive Redesign</h2>
+            <p class="lead">My final design created a more accessible interface that simplified the site's functions by condensing its different features while making it a responsive design.
+                <br>
+                <br> While my site has fewer elements on the home page, this condensed approach creates a more natural flow and a less crowded page. The original page has seperate tabs for plays, sonnets, and poems, while I've grouped these under the "Read" tab. Similarly, I combine the Condorance, or index, and advanced search feature into the "Analyze" tab. 
+                Breaking down these features into two distinct groups allows the user to be directed to the resources they need, whether those are the analyses functions provided by the database, or the original texts. 
+                In my prototyped homepage, I didn't include the full range of works available or drop down menus, although these would be added if I were to built it out more.
+            </p>
+            <!-- Slideshow container -->
+         <div class="slideshow-container2">
+            <div class="mySlides2 fade">
+              <img class="ossSlide slideImg2"  src="assets/SiteScreenshot.png" alt="Webpage screenshot">
+            </div>
+            <div class="mySlides2 fade">
+              <img class="ossSlide slideImg2" src="assets/scrollscreenshot.png" alt="Webpage scrolled screenshot">
+            </div>
+            <div class="mySlides2 fade">
+                <img class="ossSlide slideImg2" src="assets/morescreenshots.png" alt="Mobile and tablet screenshot">
+              </div>
+            
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot2" onclick="currentSlide(3)"></span>
+            <span class="dot2" onclick="currentSlide(1)"></span>
+            <span class="dot2" onclick="currentSlide(2)"></span>
+            
+          </div>
+          
+          <script>
+            let slideIndex2 = 1;
+            showSlides(slideIndex2);
+            function plusSlides(n) {
+              showSlides(slideIndex2 += n);
+            }
+            function currentSlide(n) {
+              showSlides(slideIndex2 = n);
+            }
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides2");
+              let dots = document.getElementsByClassName("dot2");
+              if (n > slides.length) {slideIndex2 = 1}    
+              if (n < 1) {slideIndex2 = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex2-1].style.display = "block";  
+              dots[slideIndex2-1].className += " active";
+            }
+          </script>
+        </div>
+       <br><br>
 </section>
 
 
