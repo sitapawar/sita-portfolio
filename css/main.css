@@ -1043,7 +1043,7 @@ header .logo a {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #FEFAF0;
+	color: #F9FCFF;
 	font-family: 'Luminari';
 	/* font-family: 'Playfair'; */
 	font-size: 20rem;
@@ -1094,7 +1094,7 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.3);
 }
 .intro-content .button {
-	color: #FEFAF0 !important;
+	color: #F9FCFF !important;
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
@@ -1134,7 +1134,7 @@ header .logo a {
 	padding: 0;
 }
 .intro-social li a, .intro-social li a:visited {
-	color: #FEFAF0;
+	color: #F9FCFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #92A4E0;
@@ -1366,7 +1366,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
  .portfolio {
-	background: #FEFAF0;
+	background: #F9FCFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -1565,7 +1565,7 @@ header .logo a {
 }
 .contact-info .icon i {
 	font-size: 4.2rem;
-	color: #FEFAF0;
+	color: #F9FCFF;
 }
 .contact-info h5 {
 	color: #92A4E0;
@@ -1589,7 +1589,7 @@ header .logo a {
 .s-loader > div {
 	width: 1rem;
 	height: 1rem;
-	background-color: #FEFAF0;
+	background-color: #F9FCFF;
 	border-radius: 100%;
 	display: inline-block;
 	margin-right: .9rem;
@@ -1657,7 +1657,7 @@ footer .row {
 }
 footer .social {
 	text-align: right;
-	color:#FEFAF0
+	color:#F9FCFF
 }
 footer .footer-social {
 	display: inline-block;
@@ -1673,7 +1673,7 @@ footer .footer-social li {
 	padding: 0;
 }
 footer .footer-social li a {
-	color: #FEFAF0;
+	color: #F9FCFF;
 }
 footer .footer-social li a:focus,  footer .footer-social li a:focus{
 	color: #92A4E0;
@@ -1764,7 +1764,7 @@ footer .copyright span:last-child::after {
 	margin-top: 2vw;
  }
 .my-page{
-	background-color: #FEFAF0;
+	background-color: #F9FCFF;
 	mg{
 		width:70%;
 		display: block;
@@ -1783,7 +1783,7 @@ footer .copyright span:last-child::after {
 		width:40%;
 	}
 	  .mainText{
-		  background-color: #FEFAF0;
+		  background-color: #F9FCFF;
 		  align-items: center;
 		  justify-content: center;
 		  margin-left:14%;
@@ -2183,7 +2183,7 @@ footer .copyright span:last-child::after {
 	  
 }
 #portfolio-page{
-	background-color: #FEFAF0;
+	background-color: #F9FCFF;
 }
 
 .art-gallery{
