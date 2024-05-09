@@ -1790,7 +1790,7 @@ footer .copyright span:last-child::after {
 		  margin-right: 14%;
 	  }
 	  h1{
-		  font-size:48px;
+		  font-size:45px;
 		  font-family: 'Playfair Display SC', serif;
 		  text-align: center;
 		  align-items: center;
@@ -1798,13 +1798,13 @@ footer .copyright span:last-child::after {
 		  margin-bottom: .5vw;
 	  }
 	  h2{
-		  font-size:40px;
+		  font-size:33px;
 		  padding: .5vw .5vw;
 		  font-family: 'Playfair Display SC', serif;
 		  color:#5A69A3;
 	  }
 	  h3{
-		  font-size:30px;
+		  font-size:26px;
 		  padding: .1vw;
 		  font-family: 'Playfair Display', serif;
 		  color:#5A69A3;
@@ -1814,7 +1814,7 @@ footer .copyright span:last-child::after {
 	  p{
 		  margin-left:3.5vw;
 		  color:#313131;
-		  font-size: 24px;
+		  font-size: 22px;
 		  font-family: "lora-regular", serif;;
 		  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 	  }
