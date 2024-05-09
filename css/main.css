@@ -2249,3 +2249,8 @@ footer .copyright span:last-child::after {
 		position: relative;
 	}
 /*# sourceMappingURL=main.css.map */
+
+
+::-webkit-scrollbar-track {
+    background: #5A69A3; /* color of the track */
+}
