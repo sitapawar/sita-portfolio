@@ -1798,13 +1798,13 @@ footer .copyright span:last-child::after {
 		  margin-bottom: .5vw;
 	  }
 	  h2{
-		  font-size:33px;
+		  font-size:32px;
 		  padding: .5vw .5vw;
 		  font-family: 'Playfair Display SC', serif;
 		  color:#5A69A3;
 	  }
 	  h3{
-		  font-size:26px;
+		  font-size:25px;
 		  padding: .1vw;
 		  font-family: 'Playfair Display', serif;
 		  color:#5A69A3;
@@ -1814,14 +1814,14 @@ footer .copyright span:last-child::after {
 	  p{
 		  margin-left:3.5vw;
 		  color:#313131;
-		  font-size: 22px;
+		  font-size: 21px;
 		  font-family: "lora-regular", serif;;
 		  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 	  }
 
 	  .subheader{
 		  color:#2F2347;
-		  font-size: 25px;
+		  font-size: 23px;
 		  font-family: "lora-regular", serif;
 		  text-align: center;
 		  margin-left: 0;
@@ -1831,7 +1831,7 @@ footer .copyright span:last-child::after {
 	  
 	  .listItem{
 		margin-left:3.5vw;
-		font-size: 28px;
+		font-size: 21px;
 		font-family: "lora-regular", serif;;
 	}
 	  .listItem li{
